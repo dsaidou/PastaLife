@@ -55,7 +55,7 @@ function App() {
         <div className='commentContainer'>
           <h1>Nos commentaires</h1>
           <div className="commentContent">
-            <CommentCard name='Louise D.' description='C’était très bon, la carte est très fourni, on ne manque pas de choix.' 
+            <CommentCard name='Louise D.' description='C’était très bon, la carte est très fournie, on ne manque pas de choix.' 
             next='Excellent restaurant !'
             date='12/03/23'/>
 

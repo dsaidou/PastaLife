@@ -15,7 +15,7 @@ export default function Footer() {
 
           <div className='column'>
             <h1>Notre restaurant</h1>
-            <p>Restaurant traditionelle</p>
+            <p>Restaurant traditionel</p>
             <p>Cuisine italienne</p>
           </div>
 
@@ -30,7 +30,7 @@ export default function Footer() {
           <div className='column'>
             <h1>Services</h1>
             <p>Privatisation</p>
-            <p>Accès aux personnes à mobilité réduites</p>
+            <p>Accès aux personnes à mobilité réduite</p>
           </div>
 
 

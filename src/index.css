@@ -88,7 +88,6 @@ header{
 
 .btnCall:hover{
   background-color: rgba(188, 19, 16, 0.95);
-  color: rgba(249, 249, 249, 0.9);
 }
 
 nav{
@@ -397,6 +396,7 @@ a:hover{
   align-items: center;
   width: 100%;
   height: 60%;
+  margin-bottom: 2vw;
 }
 
 hr{
@@ -514,6 +514,7 @@ hr{
 
 .dayTime p{
   font-size: 1vw;
+  text-align: center;
 }
 
 .mobileContainer{

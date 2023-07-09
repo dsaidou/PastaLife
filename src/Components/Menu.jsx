@@ -12,9 +12,9 @@ export default function Menu() {
                 <h2>Nos plats</h2>
                 <h3>Penne</h3>
                 <ul>
-                  <li>sauce tomate aux légumes.</li>
-                  <li>sauce tomate, oignons, basilic, tomates cerises.</li>
-                  <li>crème fraîche, oignons, fromage, crevettes.</li>
+                  <li>Sauce tomate aux légumes.</li>
+                  <li>Sauce tomate, oignons, basilic, tomates cerises.</li>
+                  <li>Crème fraîche, oignons, fromage, crevettes.</li>
                 </ul>
               </div>
 
@@ -29,9 +29,9 @@ export default function Menu() {
               <div className='mealItem'>
                 <h3>Gnocchi</h3>
                 <ul>
-                  <li>Crevettes, fromage italien, crème, oignons, tomates cerises, muscade.</li>
+                  <li>Crevettes, fromage italien, crème, oignons, tomates cerises.</li>
                   <li>Saumon, pesto, pousses d’épinards, citron.</li>
-                  <li>Poulet, crème truffe, oignon, ail, déglacé au vin blanc.</li>
+                  <li>Poulet, crème truffe, oignon, ail, vin blanc.</li>
                 </ul>
               </div>
 
@@ -54,18 +54,18 @@ export default function Menu() {
                 <h2>Nos Desserts</h2>
                 <h3>Panna Cotta</h3>
                 <ul>
-                  <li>Crème vanillé, coulis de fraise maison.</li>
+                  <li>Crème vanillée, coulis de fraise maison.</li>
                 </ul>
               </div>
 
               <div className="mealItem">
                 <h3>Tiramisù</h3>
                 <ul>
-                  <li>Crème mascarpon, biscuit cuillère, café, liqueur et cacao.</li>
+                  <li>Crème mascarpone, biscuit cuillère, café, liqueur et cacao.</li>
                 </ul>
                 <h3 id='lastTitle'>Café liégeois</h3>
                 <ul>
-                  <li>Glace café, coulis de café, chantilly</li>
+                  <li>Glace café, coulis de café, chantilly.</li>
                 </ul>
               </div>
                 
