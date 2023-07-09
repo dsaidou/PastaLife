@@ -1,6 +1,6 @@
 # PastaLife
 
-This project is a template of a restaurant website that i designed with Figma.
+This project is a template of a restaurant website that i designed on Figma.
 
 Here is the link to visit it : 
 
