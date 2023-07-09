@@ -514,7 +514,9 @@ hr{
 
 .dayTime p{
   font-size: 1vw;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .mobileContainer{
