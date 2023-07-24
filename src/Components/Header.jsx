@@ -11,6 +11,6 @@ export default function Header() {
             </ul>
           </nav>
           <button className='btnCall'><i class="fa-solid fa-phone"></i>Réservez</button>
-        </header>
+    </header>
   )
 }

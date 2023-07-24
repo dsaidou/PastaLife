@@ -643,15 +643,45 @@ footer{
   cursor: default;
 }
 
-/* @media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
+@media screen and (max-width: 900px){
+
+  /* HEADER */
+
+  header{
+    height: 10vmin;
   }
-  a:hover {
-    color: #747bff;
+
+  header ul{
+    font-size: 2vmin;
   }
-  button {
-    background-color: #f9f9f9;
+
+  .btnCall{
+    font-size: 2vmin;
+    width: 20%;
+    padding: 1vmin;
   }
-} */
+
+  .btnCall i{
+    font-size: 2vmin;
+  }
+
+  #logo{
+    font-size: 2.2vw;
+  }
+
+  #logo i{
+    font-size: 2vw;
+  }
+  .bg-image{
+    padding-top: 10%;
+  }
+  .aside{
+    width: 80%;
+  }
+  .aside h1{
+    font-size: 5vmin;
+  }
+  .aside p{
+    font-size: 2.2vmin;
+  }
+}
