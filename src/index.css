@@ -33,7 +33,7 @@ button{
 
 #sectionOne{
   width: 100%;
-  height: 70vmin;
+  min-height: 70vmin;
 }
 
 /* HEADER */
@@ -190,7 +190,7 @@ a:hover{
   border-radius: 25px;
   padding: 1vw;
   color: var(--white);
-  font-size: 1.2vw;
+  font-size: 1em;
   font-weight: 500 ;
   margin-top: 1vw;
   align-self: center;
@@ -199,7 +199,6 @@ a:hover{
 
 .aside button:hover{
   background-color: rgba(188, 19, 16, 0.95);
-  color: rgba(249, 249, 249, 0.9);
 }
 
 #title{
@@ -643,22 +642,22 @@ footer{
   cursor: default;
 }
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 700px){
 
   /* HEADER */
 
   header{
-    height: 10vmin;
+    height: 15vmin;
   }
 
   header ul{
-    font-size: 2vmin;
+    font-size: 2.8vmin;
   }
 
   .btnCall{
-    font-size: 2vmin;
-    width: 20%;
-    padding: 1vmin;
+    font-size: 2.8vmin;
+    width: 28%;
+    padding: 1.5vmin;
   }
 
   .btnCall i{
@@ -666,22 +665,45 @@ footer{
   }
 
   #logo{
-    font-size: 2.2vw;
+    font-size: 3.4vw;
   }
 
   #logo i{
-    font-size: 2vw;
+    font-size: 2.8vw;
   }
+
+  /* SECTION ONE */
+
   .bg-image{
-    padding-top: 10%;
+    padding-top: 15%;
   }
+
   .aside{
     width: 80%;
+    padding-left: 2.5em;
   }
   .aside h1{
-    font-size: 5vmin;
+    font-size: 5.6vmin;
   }
   .aside p{
-    font-size: 2.2vmin;
+    font-size: 2.8vmin;
+    margin: 0.5em 0;
+  }
+
+  .rateContainer{
+    flex-direction: column;
+    width: fit-content;
+  }
+  .starsContainer{
+    margin-bottom: 1em;
+  }
+
+  .stars .material-symbols-outlined{
+    font-size: 4vmin;
+  }
+
+  .aside button{
+    width:45%;
+    padding: 0.8em;
   }
 }
