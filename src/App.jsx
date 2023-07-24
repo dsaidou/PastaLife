@@ -118,9 +118,9 @@ function App() {
           
 
         </div>
-
-      </section>
       <Footer/>
+      </section>
+
     </>
       } 
    </>
