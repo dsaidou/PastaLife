@@ -193,7 +193,6 @@ a:hover{
   font-size: 1em;
   font-weight: 500 ;
   margin-top: 1vw;
-  align-self: center;
   cursor: pointer;
 }
 
@@ -212,7 +211,7 @@ a:hover{
 
 .sectionTwo{
   width: 100%;
-  height: 130vmin;
+  min-height: 70vh;
 }
 
 .itemContainer{
@@ -255,14 +254,13 @@ a:hover{
 }
 
 #menuContainer{
-  height: 70%;
+  min-height: 100vh;
   background-color: var(--red);
   color: var(--white);
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 2vw;
-  
 }
 
 #menuContainer h1{
@@ -648,6 +646,7 @@ footer{
 
   header{
     height: 15vmin;
+    padding: 0 1.2em;
   }
 
   header ul{
@@ -704,6 +703,58 @@ footer{
 
   .aside button{
     width:45%;
-    padding: 0.8em;
+    padding: 2vmin;
+    margin-left: 1.5em;
+    margin-bottom: 1em;
+  }
+
+  #title{
+    font-size: 1.8em;
+    margin: 1em;
+  }
+
+  /* SECTION TWO */
+
+  .itemContainer{
+    flex-direction: column;
+  }
+
+  .item .material-symbols-sharp{
+    font-size: 5em;
+  }
+
+  .itemContent .text{
+    font-size: 1.2em;
+  }
+
+  /* SECTION THREE */
+
+  #menuContainer{
+    padding: 2em;
+  }
+
+  #menuContainer h1{
+    font-size: 1.5em;
+  }
+
+  .menuContent{
+    grid-template-columns: 100%
+  }
+
+  .mealContainer{
+    gap: 1em;
+    padding: 1.2em;
+  }
+
+  .mealItem h2{
+    font-size: 1.3em;
+  }
+
+  .mealItem h3{
+    font-size: 1em;
+  }
+
+  .mealItem li{
+    font-size: 0.8em;
   }
 }
