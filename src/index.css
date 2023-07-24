@@ -497,7 +497,6 @@ hr{
   align-items: center;
   flex-direction: column;
   padding: 1vw 0;
-  border: #000000 solid 1px;
 }
 .timeContainer h2{
   color: var(--red);
@@ -526,7 +525,6 @@ hr{
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: #000000 solid 1px;
 }
 
 .mobileContainer p{
@@ -684,8 +682,9 @@ footer{
   }
 
   .aside{
-    width: 80%;
-    padding-left: 2.5em;
+    width: 85%;
+    padding-left: 1.5em;
+    align-items: center;
   }
   .aside h1{
     font-size: 5.6vmin;
@@ -693,6 +692,7 @@ footer{
   .aside p{
     font-size: 2.8vmin;
     margin: 0.5em 0;
+    width: 100%;
   }
 
   .rateContainer{
@@ -816,7 +816,8 @@ footer{
   }
 
   .breakpointContainer h2{
-    font-size: 1.5em;
+    font-size: 1.8em;
+    margin-bottom: 0.5em;
   }
 
   .breakpointContainer i{
@@ -836,6 +837,8 @@ footer{
 
   #contactContainer h2{
     font-size: 1.5em;
+    margin-top: 1em;
+    margin-bottom: 0;
   }
 
   #contactContainer .fa-phone{
@@ -845,6 +848,7 @@ footer{
 
   #contactContainer p{
     font-size: 1.5em;
+    margin-right: 2.5em;
   }
 
   /* CONTACT  */
@@ -855,15 +859,27 @@ footer{
 
   .mobileContainer span{
     font-size: 6em;
+    margin-bottom: 0.3em ;
   }
   
   .btnMobile{
-    font-size: 1.5em;
+    font-size: 1.2em;
+    width: 50%;
     padding: 0.6em;
     margin: 0.5em;
   }
   /* Horaires */
 
+  .timeContainer h2{
+    font-size: 1.5em;
+  }
 
+  .dayTime{
+    margin: 2em;
+  }
+
+  .dayTime p{
+    font-size: 1.2em;
+  }
 
 }
