@@ -691,7 +691,7 @@ footer{
     font-size: 5.6vmin;
   }
   .aside p{
-    font-size: 1.2em;
+    font-size: 1em;
     margin: 0.5em 0;
     width: 100%;
   }
@@ -914,7 +914,8 @@ footer{
 
   .socialContainer{
     padding: 1em;
-    margin-right: 8em;
+    justify-content: flex-start;
+    width: 60%;
   }
 
   .socialContainer p{ 
@@ -932,6 +933,7 @@ footer{
     align-items: center;
     flex-direction: column;
     width: 100%;
+    margin-bottom: 1em;
   }
 
   .bottom p{
