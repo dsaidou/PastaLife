@@ -636,6 +636,7 @@ footer{
 }
 
 .bottom p{
+  font-size: 1em;
   margin: 1vw;
   font-weight: 100;
   cursor: pointer;
@@ -937,6 +938,8 @@ footer{
   }
 
   .bottom p{
+    font-size: 1.2em;
     width: 50%;
+
   }
 }
